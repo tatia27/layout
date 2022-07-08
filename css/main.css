@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+}
+
+header {   
+    background: url('../images/coachella.jpg') no-repeat center / cover;
+    padding-top: 57px;  
+    color: #fff;
+    padding-bottom: 322px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing: 8px;
+    color:#FFF;
+    margin-bottom: 19px;
+    margin-top: -9px;
+} 
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+section {
+    padding-top: 113px;	
+}
+
+header a {
+    color: #FFF;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+ul, li {
+    display: block; 
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.menu li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.phone {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 2px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+    text-transform: uppercase;
+    margin-top: 216px;
+}
+
+.offer p {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color:#FFF;
+    text-transform: uppercase;
+}
+
+.button {
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    width: 240px;
+    padding: 17px 47px;
+    border: 1px solid #FFF;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+section {
+    background-color: #FFFDF4;   
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.desc-left, .desc-right {
+	width: 567px;
+}
+
+.gallery {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+
+footer {
+    background-color: #FFFDF4;
+}
+
+.footer-description {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 50px 0;   
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+    .desc-left, .desc-right {
+        width: 47%;
+    }
+    .gallery img:nth-child(1) {
+        width: 25%;
+    }
+    .gallery img:nth-child(2) {
+        width: 25%;
+    }
+    .gallery img:nth-child(3) {
+        width: 47%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+
+}
+
+/* для планшетов */
+@media (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+
+    .offer p {
+        font-size: 30px;
+        letter-spacing: 2px;
+        color:#FFF;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 70px;
+        letter-spacing: 8px;
+        color:#FFF;
+        margin-bottom: 19px;
+        margin-top: -9px;
+    }
+
+    .phone {
+        padding-top: 3px;
+        font-size: 12px;
+        text-decoration: none;
+        margin-left: auto;
+        letter-spacing: 2px;
+    }
+
+    .menu li a {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .footer-description {
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 50px 0;   
+        text-align: center;
+    }  
+}
+
+/*для телефонов*/
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .menu {
+        display: none;
+    }
+
+    section {
+        padding-top: 50px;	
+    }
+    
+    .offer p {
+        font-size: 15px;
+        letter-spacing: 1px;
+        color:#FFF;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+         
+    h1 {
+        font-size: 45px;
+        letter-spacing: 6px;
+        color:#FFF;
+        margin-bottom: 19px;
+        margin-top: 3px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-bottom: 58px;
+        text-transform: uppercase;
+    }
+    
+    .button {
+        display: block;
+        font-size: 15px;
+        text-decoration: none;
+        letter-spacing: 2px;
+        width: 200px;
+        padding: 17px 20px;
+        border: 1px solid #FFF;
+        transition: all 0.5s ease;
+    }
+    .phone {
+        font-size: 15px;
+        text-decoration: none;
+        margin-left: auto;
+        letter-spacing: 2px;
+    }
+    
+    .description {
+        flex-wrap: wrap;
+    }
+
+    .desc-left, .desc-right {
+        width: 100%;
+    }
+
+    .desc-left {
+        margin-bottom: 40px;  
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+    }
+
+    .gallery img:nth-child(1),
+    .gallery img:nth-child(2),
+    .gallery img:nth-child(3) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-description {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 20px 0;   
+        text-align: center;
+    }     
+}
