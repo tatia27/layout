@@ -130,33 +130,33 @@ section {
 }
 
 .description {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .description p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
 }
 
 .desc-left, .desc-right {
-	width: 567px;
+    width: 567px;
 }
 
 .gallery {
-	margin-top: 67px;
-	display: flex;
-	justify-content: space-between;
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .gallery img {
-	transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .gallery img:hover {
-	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-	transform: scale(1.1);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transform: scale(1.1);
 }
 
 footer {
@@ -164,9 +164,9 @@ footer {
 }
 
 .footer-description {
-	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
-	padding: 50px 0;   
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px 0;   
     text-align: center;
 }
 
